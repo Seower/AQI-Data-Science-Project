@@ -57,3 +57,5 @@ Screenshots of Important Charts
 AQI-Data-Science-Project/outputs/charts
 
 Report File
+
+https://github.com/Seower/AQI-Data-Science-Project/tree/5ac6aa12c4650b04278c1c5040d08cb6432b61e7/AQI-Data-Science-Project/report
