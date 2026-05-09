@@ -1,0 +1,66 @@
+PART A – RESULTS
+
+• Dataset: **3660 rows, 13 columns**
+• Key features: PM2.5, PM10, NO2, SO2, CO, O3
+• Target: AQI Category
+• Missing values: None
+• Duplicates: None
+
+
+PART B – CLEANING
+
+• Removed duplicate rows
+• Filled missing values with mean
+• Converted Date to datetime
+• Created Year and Month columns
+• Dropped Date column
+
+
+PART C – AQI CATEGORY
+
+• AQI converted into categories (Good → Hazardous)
+
+
+PART D – EDA
+
+• Most data: Moderate & Unhealthy AQI
+• PM2.5 strongly increases AQI
+• PM10 & AQI strongly correlated
+• AQI varies by country and year
+• Pollution mainly driven by particulate matter
+
+
+PART E – KNN
+
+• Best k = 7
+• Accuracy = 0.25
+• Poor performance due to overlapping classes
+
+
+PART F – NAIVE BAYES
+
+• Accuracy = 0.3866
+• Performed better than KNN
+• Biased toward dominant class
+
+
+PART G – K-MEANS
+
+• Clusters = 3
+• Represents low, medium, high pollution
+• Clusters are meaningful
+
+
+PART H – PCA
+
+• Variance explained = 21.4%
+• 2D visualization achieved
+• Weak but useful pattern separation
+
+
+FINAL SUMMARY:
+
+• Best model: Naive Bayes
+• Clustering successful (3 groups)
+• PCA useful but low variance
+• PM2.5 most important pollutant
